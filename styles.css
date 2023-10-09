@@ -6,6 +6,9 @@ font-family: 'Satisfy', cursive;*/
 font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Satisfy', cursive;*/
+.root {
+  color: var(--branding-color);
+}
 
 h1,
 h2,
@@ -19,10 +22,16 @@ h1 {
   font-size: 76px;
   font-weight: bold;
 }
+h2 {
+  font-size: 64px;
+}
 
 p {
   text-align: center;
   font-family: "Poppins", sans-serif;
+  color: dimgray;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .hero {
@@ -48,6 +57,26 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
+.btn-brand {
+  background-color: #fafafc;
+  border-radius: 4px;
+  color: rgb(203, 30, 222);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  border: 1px solid rgb(203, 30, 222);
+}
+
+.descp {
+  padding: 120px 60px;
+}
+@media (max-width: 900px) {
+  .project-desciption {
+    padding: 0;
+    text-align: center;
+  }
+}
+
 i {
   font-size: 40px;
 }
