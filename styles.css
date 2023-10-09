@@ -82,6 +82,9 @@ p {
     font-size: 60px;
   }
 }
+#footer {
+  background-color: #f7f3ff;
+}
 
 i {
   font-size: 40px;
